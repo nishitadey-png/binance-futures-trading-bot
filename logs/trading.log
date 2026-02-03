@@ -1,0 +1,4 @@
+2026-02-03 23:19:20,610 | INFO | Placing order | Symbol=BTCUSDT Side=BUY Type=MARKET Qty=0.001 Price=None
+2026-02-03 23:19:20,611 | INFO | Order response: {'orderId': 123456789, 'status': 'FILLED', 'executedQty': 0.001, 'avgPrice': 'MARKET_PRICE', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET'}
+2026-02-03 23:19:38,436 | INFO | Placing order | Symbol=BTCUSDT Side=SELL Type=LIMIT Qty=0.001 Price=45000.0
+2026-02-03 23:19:38,436 | INFO | Order response: {'orderId': 123456789, 'status': 'FILLED', 'executedQty': 0.001, 'avgPrice': 45000.0, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT'}
