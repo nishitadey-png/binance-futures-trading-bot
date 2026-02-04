@@ -1,1 +1,2 @@
-USE_TESTNET = False 
+USE_MOCK = True
+

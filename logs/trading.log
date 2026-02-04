@@ -4,3 +4,11 @@
 2026-02-03 23:19:38,436 | INFO | Order response: {'orderId': 123456789, 'status': 'FILLED', 'executedQty': 0.001, 'avgPrice': 45000.0, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT'}
 2026-02-04 09:11:10,361 | INFO | Placing order | Symbol=BTCUSDT Side=BUY Type=MARKET Qty=0.01 Price=None
 2026-02-04 09:11:10,364 | INFO | Order response: {'orderId': 123456789, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 'MARKET_PRICE', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET'}
+2026-02-04 09:26:21,676 | INFO | Placing order | Symbol=BTCUSDT Side=SELL Type=LIMIT Qty=0.01 Price=4500.0
+2026-02-04 09:26:22,178 | INFO | Order response: {'orderId': 'df7fa490-90a8-4bb0-adf6-cb64cd510c22', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 4500.0, 'timestamp': 1770177382178}
+2026-02-04 09:30:44,989 | INFO | Placing order | Symbol=BTCUSDT Side=BUY Type=MARKET Qty=0.01 Price=None
+2026-02-04 09:30:45,490 | INFO | Order response: {'orderId': '185ca021-b7e8-4d49-b9de-8bd91aa601c3', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': None, 'timestamp': 1770177645490}
+2026-02-04 09:31:11,305 | INFO | Placing order | Symbol=BTCUSDT Side=SELL Type=LIMIT Qty=0.03 Price=400.0
+2026-02-04 09:31:11,305 | INFO | Placing order | Symbol=BTCUSDT Side=SELL Type=LIMIT Qty=0.03 Price=400.0
+2026-02-04 09:31:11,806 | INFO | Order response: {'orderId': 'aa0ba675-9115-4fb3-9749-0e0260aaa3f0', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'status': 'FILLED', 'executedQty': 0.03, 'avgPrice': 400.0, 'timestamp': 1770177671806}
+2026-02-04 09:31:11,806 | INFO | Order response: {'orderId': 'aa0ba675-9115-4fb3-9749-0e0260aaa3f0', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'status': 'FILLED', 'executedQty': 0.03, 'avgPrice': 400.0, 'timestamp': 1770177671806}

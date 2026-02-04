@@ -83,11 +83,11 @@ def run(
             price
         )
 
-        print("\n[green]Order Successful ✅[/green]")
+        print("\n[green]Order Successful[/green]")
         print(order)
 
     except Exception as e:
-        print(f"[red]Order Failed ❌[/red]: {e}")
+        print(f"[red]Order Failed[/red]: {e}")
 
 if __name__ == "__main__":
     app()
