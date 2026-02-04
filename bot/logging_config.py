@@ -1,16 +1,22 @@
 import logging
-from logging.handlers import RotatingFileHandler
+import os
 
-def setup_logger(name, log_file):
-    logger = logging.getLogger(name)
-    logger.setLevel(logging.INFO)
+def setup_logger(name, log_file, level=logging.INFO):
+    os.makedirs(os.path.dirname(log_file), exist_ok=True)
 
-    handler = RotatingFileHandler(log_file, maxBytes=5_000_000, backupCount=2)
     formatter = logging.Formatter(
-        "%(asctime)s | %(levelname)s | %(message)s"
+        "%(asctime)s - %(levelname)s - %(message)s"
     )
 
+    handler = logging.FileHandler(log_file)
+
     handler.setFormatter(formatter)
-    logger.addHandler(handler)
+
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
+
+    # VERY IMPORTANT: avoid duplicate handlers
+    if not logger.handlers:
+        logger.addHandler(handler)
 
     return logger

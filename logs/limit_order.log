@@ -1,0 +1,4 @@
+2026-02-04 10:17:10,681 - INFO - Order request received
+2026-02-04 10:17:10,681 - INFO - Symbol=BTCUSDT, Side=SELL, Type=LIMIT, Quantity=0.01, Price=4500.0
+2026-02-04 10:17:10,682 - INFO - Order executed successfully
+2026-02-04 10:17:10,682 - INFO - Order response: {'orderId': '3e986285', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 4500.0, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 4500.0, 'timestamp': '2026-02-04T04:47:10.682235'}

@@ -12,3 +12,11 @@
 2026-02-04 09:31:11,305 | INFO | Placing order | Symbol=BTCUSDT Side=SELL Type=LIMIT Qty=0.03 Price=400.0
 2026-02-04 09:31:11,806 | INFO | Order response: {'orderId': 'aa0ba675-9115-4fb3-9749-0e0260aaa3f0', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'status': 'FILLED', 'executedQty': 0.03, 'avgPrice': 400.0, 'timestamp': 1770177671806}
 2026-02-04 09:31:11,806 | INFO | Order response: {'orderId': 'aa0ba675-9115-4fb3-9749-0e0260aaa3f0', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'status': 'FILLED', 'executedQty': 0.03, 'avgPrice': 400.0, 'timestamp': 1770177671806}
+2026-02-04 10:08:48,166 - INFO - Order request received
+2026-02-04 10:08:48,166 - INFO - Symbol=BTCUSDT, Side=BUY, Type=MARKET, Quantity=0.01, Price=None
+2026-02-04 10:08:48,167 - INFO - Order executed successfully
+2026-02-04 10:08:48,167 - INFO - Order response: {'orderId': '048d68f7', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'price': None, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 'MARKET_PRICE', 'timestamp': '2026-02-04T04:38:48.167158'}
+2026-02-04 10:09:34,553 - INFO - Order request received
+2026-02-04 10:09:34,554 - INFO - Symbol=BTCUSDT, Side=SELL, Type=LIMIT, Quantity=0.01, Price=4500.0
+2026-02-04 10:09:34,554 - INFO - Order executed successfully
+2026-02-04 10:09:34,554 - INFO - Order response: {'orderId': '88f8a555', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 4500.0, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 4500.0, 'timestamp': '2026-02-04T04:39:34.554441'}

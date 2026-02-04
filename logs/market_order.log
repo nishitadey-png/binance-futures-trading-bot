@@ -1,0 +1,4 @@
+2026-02-04 10:16:31,065 - INFO - Order request received
+2026-02-04 10:16:31,065 - INFO - Symbol=BTCUSDT, Side=BUY, Type=MARKET, Quantity=0.01, Price=None
+2026-02-04 10:16:31,066 - INFO - Order executed successfully
+2026-02-04 10:16:31,067 - INFO - Order response: {'orderId': 'ca86f171', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'price': None, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 'MARKET_PRICE', 'timestamp': '2026-02-04T04:46:31.066169'}

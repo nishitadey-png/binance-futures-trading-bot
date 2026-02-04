@@ -1,20 +1,20 @@
 import uuid
-import time
+from datetime import datetime
 
-class MockFuturesClient:
-    def futures_create_order(self, **kwargs):
-        time.sleep(0.5)  # simulate network delay
-
+class MockClient:
+    def create_order(self, symbol, side, order_type, quantity, price=None):
         return {
-            "orderId": str(uuid.uuid4()),
-            "symbol": kwargs.get("symbol"),
-            "side": kwargs.get("side"),
-            "type": kwargs.get("type"),
+            "orderId": str(uuid.uuid4())[:8],
+            "symbol": symbol,
+            "side": side,
+            "type": order_type,
+            "quantity": quantity,
+            "price": price,
             "status": "FILLED",
-            "executedQty": kwargs.get("quantity"),
-            "avgPrice": kwargs.get("price", "MARKET_PRICE"),
-            "timestamp": int(time.time() * 1000)
+            "executedQty": quantity,
+            "avgPrice": price if price else "MARKET_PRICE",
+            "timestamp": datetime.utcnow().isoformat()
         }
 
 def get_client():
-    return MockFuturesClient()
+    return MockClient()
