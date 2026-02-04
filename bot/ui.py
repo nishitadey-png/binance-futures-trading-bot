@@ -1,7 +1,8 @@
 import streamlit as st
-from bot.client import get_client
-from bot.orders import place_order
-from bot.logging_config import setup_logger
+from .client import get_client
+from .orders import place_order
+from .logging_config import setup_logger
+
 
 st.set_page_config(page_title="Trading Bot", layout="centered")
 
